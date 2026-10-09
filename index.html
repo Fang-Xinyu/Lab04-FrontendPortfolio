@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#051b17">
+  <meta name="description" content="xyfang 的前端网页作品集。从注册表单、知识问答到食谱搜索，探索每一个小小的网页实践。">
+  <title>xyfang · 前端网页作品集</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#projects">跳转到作品</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="xyfang 首页"><span class="brand-mark" aria-hidden="true">x<span>.</span></span>xyfang<span class="brand-suffix"> / portfolio</span></a>
+      <div class="nav-links"><a class="nav-link" href="#projects">作品</a><a class="nav-link" href="#about">关于</a><a class="nav-cta" href="#projects">探索作品 <span aria-hidden="true">↗</span></a></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <span class="hero-dot" aria-hidden="true"></span>
+      <h1 id="hero-title">xyfang 的前端网页作品集</h1>
+      <p class="hero-description">这是我的前端网页作品，点击跳转到具体的页面</p>
+    </section>
+
+    <section class="projects container" id="projects" aria-label="前端网页作品">
+      <div class="project-grid" id="meals">
+        <a class="project-card" href="https://lab01-register-page.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="打开 Register Form 注册表单（新标签页）">
+          <div class="project-preview preview-register"><div class="browser-frame"><div class="browser-bar" aria-hidden="true"><span></span><span></span><span></span><i>register.form</i></div><img src="img/1.png" alt="Register Form 注册表单页面预览" width="1988" height="1184"></div></div>
+          <div class="project-content"><div class="project-title-row"><h3><span class="project-number">1</span>Register Form</h3><span class="project-arrow" aria-hidden="true">↗</span></div><p>从第一次输入开始，让注册变得简单。<br>一个干净、直观的注册表单页面。</p><div class="project-tags"><span>表单设计</span><span>Register</span></div></div>
+        </a>
+        <a class="project-card" href="https://lab02-quiz-game.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="打开 Quiz Time 知识问答（新标签页）">
+          <div class="project-preview preview-quiz"><div class="browser-frame"><div class="browser-bar" aria-hidden="true"><span></span><span></span><span></span><i>quiz.time</i></div><img src="img/2.png" alt="Quiz Time 知识问答页面预览" width="1396" height="750"></div></div>
+          <div class="project-content"><div class="project-title-row"><h3><span class="project-number">2</span>Quiz Time</h3><span class="project-arrow" aria-hidden="true">↗</span></div><p>给好奇心一点挑战，给学习一点乐趣。<br>在轻松的互动中，测试你的知识储备。</p><div class="project-tags"><span>交互体验</span><span>Quiz</span></div></div>
+        </a>
+        <a class="project-card" href="https://lab03-menu-search.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="打开 Recipe Finder 食谱搜索（新标签页）">
+          <div class="project-preview preview-recipe"><div class="browser-frame"><div class="browser-bar" aria-hidden="true"><span></span><span></span><span></span><i>recipe.finder</i></div><img src="img/3.png" alt="Recipe Finder 食谱搜索页面预览" width="1280" height="700" loading="lazy"></div></div>
+          <div class="project-content"><div class="project-title-row"><h3><span class="project-number">3</span>Recipe Finder</h3><span class="project-arrow" aria-hidden="true">↗</span></div><p>从一个关键词，发现下一餐的灵感。<br>探索世界各地的食谱，找到喜欢的味道。</p><div class="project-tags"><span>搜索探索</span><span>Recipe</span></div></div>
+        </a>
+        <article class="project-card about-card" id="about" aria-labelledby="about-title">
+          <div class="about-art" aria-hidden="true"><div class="code-orbit orbit-one"></div><div class="code-orbit orbit-two"></div><span class="code-symbol">&lt;<b>/</b>&gt;</span><span class="art-spark spark-one">+</span><span class="art-spark spark-two">+</span><span class="art-dot"></span></div>
+          <div class="project-content"><div class="project-title-row"><h3 id="about-title"><span class="project-number number-outline">✦</span>保持好奇，继续构建</h3></div><p>这里记录着我的前端学习与实践。<br>打磨细节，也期待下一个新想法。</p><div class="project-tags about-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+        </article>
+      </div>
+      <p class="projects-note">点击作品卡片，在新标签页中体验完整页面 <span aria-hidden="true">↗</span></p>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="footer-brand" href="#top">xyfang<span>.</span></a><p>用代码记录成长，用设计表达想法。</p><a class="back-top" href="#top">回到顶部 <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>
